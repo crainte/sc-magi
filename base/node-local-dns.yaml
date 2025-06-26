@@ -5,7 +5,7 @@ metadata:
   name: node-local-dns
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 4380h
   ref:
     branch: master
   url: https://github.com/kubernetes/kubernetes.git
