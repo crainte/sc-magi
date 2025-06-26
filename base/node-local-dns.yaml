@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: node-local-dns
+  name: kubernetes
   namespace: flux-system
 spec:
   interval: 4380h
