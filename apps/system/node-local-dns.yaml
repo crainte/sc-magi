@@ -10,3 +10,8 @@ spec:
   sourceRef:
     kind: GitRepository
     name: kubernetes
+  postBuild:
+    substitue:
+      __PILLAR__DNS__DOMAIN__: "cluster.local"
+      __PILLAR__LOCAL__DNS__: "169.254.20.10"
+      __PILLAR__DNS__SERVER__: "10.96.0.10"
